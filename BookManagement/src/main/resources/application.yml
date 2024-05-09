@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Library-Management
+  datasource:
+    username: root
+    password: fun123
+    url: jdbc:mysql://localhost:3308/library_management
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
