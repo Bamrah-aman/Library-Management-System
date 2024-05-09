@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b83544e-2c0e-4741-8d54-efe14390140e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/LibraryManagementApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/CustomErrorResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/DashBoardBooksList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/DashboardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/DeleteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/UpdateAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/dto/UpdateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/entity/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/AuthorExceptionReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/AuthorNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/BookAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/BookAlreadyExistsReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/BookExceptionReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/BookNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/LimitExceedsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/LimitExceedsExceptionReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/successResponse/SuccessResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/exception/successResponse/SuccessResponseReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/repo/AuthorRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/repo/BookRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/repo/LibRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/utility/BookDTOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/utility/DashBoardDTOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/core/utility/ErrorResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/server/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/server/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/server/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/java/com/GrabbingTheCode/bookmng/server/service/LibraryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManagement/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b83544e-2c0e-4741-8d54-efe14390140e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +13,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Bamrah-aman"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Bamrah-aman/Library-Management-System.git",
+    "accountId": "5ba29599-0315-40f4-94f5-50322e97db4b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gEBETuakB8eDLXsyOR6734kaji" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.LibraryManagementApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/aman/IdeaProjects/Library-Management-System",
     "node.js.detected.package.eslint": "true",
