@@ -1,0 +1,34 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: User-Management
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user_management
+    username: GrabbingTheCode
+    password: fun123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+# Java mail properties
+  mail:
+    host: localhost
+    port: 1025
+    username: GrabbingTheCode
+    password: fun123
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enabled: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000

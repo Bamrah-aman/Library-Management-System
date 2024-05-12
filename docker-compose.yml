@@ -1,18 +1,38 @@
+version: '3.8'
+
+networks:
+  pg-network:
+
 services:
-  mysql:
-    image: mysql:latest
-    container_name: mysql_db
+  usermng_postgres:
+    image: postgres
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: fun123
-      MYSQL_ROOT_USER: root
-      MYSQL_DATABASE: library_management
+      POSTGRES_DB: user_management
+      POSTGRES_USER: GrabbingTheCode
+      POSTGRES_PASSWORD: fun123
     ports:
-      - "3308:3306"
-    expose:
-      - '3306'
+      - "5432:5432"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - db1_data:/var/lib/postgresql/data
+    networks:
+      - pg-network
+
+  bookmng_postgres:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: book_management
+      POSTGRES_USER: GrabbingTheCode
+      POSTGRES_PASSWORD: fun123
+    ports:
+      - "5433:5432"
+    volumes:
+      - db2_data:/var/lib/postgresql/data
+    networks:
+      - pg-network
+
 
 volumes:
-  mysql_data:
+  db1_data:
+  db2_data:
