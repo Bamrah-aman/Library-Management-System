@@ -1,6 +1,6 @@
 package com.GrabbingTheCode.bookmng.core.dto;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 
 public record UpdateBook(
         @NotBlank(message = "Old Book Name cannot be left Blank")

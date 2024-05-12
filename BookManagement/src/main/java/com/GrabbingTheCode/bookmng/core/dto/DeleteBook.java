@@ -1,6 +1,7 @@
 package com.GrabbingTheCode.bookmng.core.dto;
 
-import jakarta.validation.constraints.NotBlank;
+
+import javax.validation.constraints.NotBlank;
 
 public record DeleteBook(
         @NotBlank(message = "Book Name cannot be left Blank")

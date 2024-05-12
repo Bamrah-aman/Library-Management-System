@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class LibraryManagementApplication {
+public class BookMngApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LibraryManagementApplication.class, args);
+		SpringApplication.run(BookMngApplication.class, args);
 	}
 
 	@Bean

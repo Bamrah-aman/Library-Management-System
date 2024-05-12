@@ -2,7 +2,7 @@ package com.GrabbingTheCode.bookmng.server.service;
 
 import com.GrabbingTheCode.bookmng.core.entity.Library;
 import com.GrabbingTheCode.bookmng.core.repo.LibRepo;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

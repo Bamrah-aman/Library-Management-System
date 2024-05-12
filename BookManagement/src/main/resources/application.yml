@@ -5,12 +5,12 @@ spring:
   application:
     name: Library-Management
   datasource:
-    username: root
+    username: GrabbingTheCode
     password: fun123
-    url: jdbc:mysql://localhost:3308/library_management
+    url: jdbc:postgresql://localhost:5433/book_management
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
     show-sql: true
     properties:
       hibernate:

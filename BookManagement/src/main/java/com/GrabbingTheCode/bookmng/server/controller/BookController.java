@@ -10,7 +10,7 @@ import com.GrabbingTheCode.bookmng.core.exception.successResponse.SuccessRespons
 import com.GrabbingTheCode.bookmng.server.service.AuthorService;
 import com.GrabbingTheCode.bookmng.server.service.BookService;
 import com.GrabbingTheCode.bookmng.server.service.LibraryService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

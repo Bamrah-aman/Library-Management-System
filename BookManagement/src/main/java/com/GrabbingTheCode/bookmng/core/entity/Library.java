@@ -1,8 +1,8 @@
 package com.GrabbingTheCode.bookmng.core.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
+import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;
 
