@@ -4,27 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b83544e-2c0e-4741-8d54-efe14390140e" name="Changes" comment="" />
+    <list default="true" id="4b83544e-2c0e-4741-8d54-efe14390140e" name="Changes" comment="Extras">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9e5fddb-ba0b-41b5-add7-e404905f8a42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9e5fddb-ba0b-41b5-add7-e404905f8a42/storage_v2/_src_/schema/library_management.R_axpA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Bamrah-aman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bamrah-aman&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Bamrah-aman/Library-Management-System.git",
-    "accountId": "5ba29599-0315-40f4-94f5-50322e97db4b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bamrah-aman/Library-Management-System.git&quot;,
+    &quot;accountId&quot;: &quot;5ba29599-0315-40f4-94f5-50322e97db4b&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.3/spring-security-core-5.6.3-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,30 +64,43 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.BookManagement [clean].executor": "Run",
+    "Maven.BookManagement [compile].executor": "Run",
+    "Maven.Library-Management-System [clean,install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BookMngApplication.executor": "Run",
     "Spring Boot.LibraryManagementApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "Spring Boot.UserManagementApplication.executor": "Run",
+    "git-widget-placeholder": "feature",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/aman/IdeaProjects/Library-Management-System",
+    "last_opened_file_path": "/home/aman/IdeaProjects/CICD Bouali/spring-boot-for-beginners",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "mysql"
+      "mysql",
+      "postgresql"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.GrabbingTheCode.usrmng.dto" />
+      <recent name="com.GrabbingTheCode.usrmng.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/BookManagement/src/main/resources" />
@@ -77,10 +115,15 @@
       <recent name="com.GrabbingTheCode.bookmng.core.config" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="LibraryManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserManagementApplication">
+    <configuration name="BookMngApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="BookManagement" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GrabbingTheCode.bookmng.LibraryManagementApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GrabbingTheCode.bookmng.BookMngApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.GrabbingTheCode.bookmng.*" />
@@ -91,9 +134,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UserManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GrabbingTheCode.usrmng.UserManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LibraryManagementApplication" />
+        <item itemvalue="Spring Boot.BookMngApplication" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -114,13 +179,63 @@
       <option name="presentableId" value="Default" />
       <updated>1715252746963</updated>
       <workItem from="1715252747881" duration="4402000" />
+      <workItem from="1715349290544" duration="14000" />
+      <workItem from="1715349331671" duration="551000" />
+      <workItem from="1715349923072" duration="39000" />
+      <workItem from="1715357981759" duration="1252000" />
+      <workItem from="1715359251097" duration="1430000" />
+      <workItem from="1715399284361" duration="2390000" />
+      <workItem from="1715435542397" duration="4610000" />
+      <workItem from="1715486150473" duration="6224000" />
+      <workItem from="1715494164021" duration="19609000" />
+      <workItem from="1715577769219" duration="1694000" />
+      <workItem from="1715601110417" duration="629000" />
+      <workItem from="1715617285870" duration="193000" />
+      <workItem from="1715617501208" duration="57000" />
+      <workItem from="1715620548791" duration="359000" />
+      <workItem from="1715663319475" duration="699000" />
+      <workItem from="1715746343620" duration="1515000" />
     </task>
+    <task id="LOCAL-00001" summary="Extras">
+      <option name="closed" value="true" />
+      <created>1715258661354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715258661354</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Extras">
+      <option name="closed" value="true" />
+      <created>1715522130429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715522130429</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extras" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
